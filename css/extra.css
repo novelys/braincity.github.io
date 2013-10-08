@@ -1,5 +1,6 @@
 body {
-  background-color: #e1e1e1; }
+  background-color: #e1e1e1;
+  font-family: "Open Sans", sans-serif; }
 
 section.nav {
   background-color: #0060ae;
@@ -34,13 +35,17 @@ section.content {
   section.content .content {
     background-color: white;
     border-radius: 5px;
-    padding: 20px; }
-    section.content .content .slides {
-      margin: 40px 0; }
+    padding: 40px 0;
+    text-align: center; }
 
 #mc_embed_signup {
   background: white;
   clear: left;
   font: 14px Helvetica, Arial, sans-serif; }
   #mc_embed_signup form {
-    padding-left: 0; }
+    padding-left: 0;
+    text-align: center; }
+  #mc_embed_signup input.email, #mc_embed_signup input.button {
+    width: 160px;
+    margin: 10px auto;
+    min-width: 160px; }
